@@ -14,21 +14,21 @@
 ### 使いたい技術
 (個人で使いたい技術/言語を入力してください。）
 * ニシャント - "node js, Wordpress, Bootstrap, react UI パッケージ, php, sql"
-* 荒尾 - ""
+* 荒尾 - "javaScript(React, React Native, express), material UI"
 * 大西 - ""
 * 米田 - ""
 
 ### やりたいこと,役割分担
 (Front-end, Back-end, FullStack, 審査発表, スケジュール管理, リーダー, 特にない)
 * ニシャント - "FullStack、審査発表、リーダー"
-* 荒尾 - ""
+* 荒尾 - "FullStack"
 * 大西 - ""
 * 米田 - ""
 
 ### 現在勉強している技術
-(ないでしたら、空間でいいです。)
+(なければ、空白でいいです。)
 * ニシャント - "Java, JavaScript, Ruby, Wordpress"
-* 荒尾 - ""
+* 荒尾 - "javaScript(React, express)"
 * 大西 - ""
 * 米田 - ""
 
