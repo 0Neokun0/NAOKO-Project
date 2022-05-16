@@ -1,14 +1,7 @@
 # GTM 進級制作
 
-* 気分でおすすめ料理
-    * 最安検索
-
-## 機械学習
-
-* ボートレース
-
-## upcolor機能
-* アカウント
+### UPCOLOR ver2
+    * バージョンアップ
 
 # メール
     * メール認証
@@ -83,3 +76,13 @@
     絵文字やイラストをアップロードしたらポイント取得システム
 
 [UPCOLOR](https://weblike-upcolor.ssl-lolipop.jp/UpColor/php/home/)
+
+# 言語技術
+    * React node.js
+    * MySQL
+
+# コード環境
+    * git
+
+# サーバー
+    * lollipop
