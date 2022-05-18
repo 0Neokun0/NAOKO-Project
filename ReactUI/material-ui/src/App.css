@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: top 100px;
 }
 
 .App-logo {
@@ -11,6 +12,10 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+input {
+  color: white !important
 }
 
 .App-header {
