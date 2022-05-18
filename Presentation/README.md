@@ -22,14 +22,14 @@
 (Front-end, Back-end, FullStack, 審査発表, スケジュール管理, リーダー, 特にない)
 * ニシャント - "FullStack、審査発表、リーダー"
 * 荒尾 - "FullStack"
-* 大西 - ""
+* 大西 - "FullStack"
 * 米田 - "データベースに挑戦してみたい。大西と一緒に作るのもあり"
 
 ### 現在勉強している技術
 (ないでしたら、空間でいいです。)
 * ニシャント - "Java, JavaScript, Ruby, Wordpress"
 * 荒尾 - "javaScript(React, express)"
-* 大西 - ""
+* 大西 - "React"
 * 米田 - "MySQL"
 
 
