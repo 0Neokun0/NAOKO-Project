@@ -61,7 +61,7 @@
     * mynaviやリクナビである企業ページみたいやりましょう。
     * (入力して頂く内容)
     * 会社概要.仕事紹介記事.取材・特集.募集要項・採用フロー
-    * [mynavi会社ページ](https://job.mynavi.jp/23/pc/search/corp228893/outline.html)
+     [mynavi会社ページ](https://job.mynavi.jp/23/pc/search/corp228893/outline.html)
     * [リクナビ会社ページ](https://job.rikunabi.com/2023/company/r515532032/)
     * 学生プロファイルを拝見
     * 選考グループ作成(グループ内にアンケートを提供、選考情報など)
