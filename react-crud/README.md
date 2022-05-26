@@ -1,9 +1,9 @@
 # Building a basic CRUD (Create, Read, Update, Delete)
-    * App functionality:
-    * Create a new student
-    * Update an existing student
-    * Show students list
-    * Delete a student
+    App functionality:
+        Create a new student
+        Update an existing student
+        Show students list
+        Delete a student
 
 ## Rest API
     GET
