@@ -17,3 +17,10 @@ npm install [packageName]
 ```
 npm install [packageName](半角スペース)[packageName]
 ```
+
+## 必要なパッケージ
+```
+npm install axios
+npm install mysql
+
+```
