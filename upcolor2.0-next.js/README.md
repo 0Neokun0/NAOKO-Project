@@ -10,4 +10,4 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-![alt text](http://url/to/img.png)
+![nav](https://user-images.githubusercontent.com/90218986/170916375-64d06543-dca8-40fb-a12e-e2aa6094cd95.PNG)
