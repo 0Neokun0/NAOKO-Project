@@ -14,3 +14,5 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Next.jsって何？
 https://tech-parrot.com/programming/next-js-react-js-tigai/
+
+![next.js](https://www.datocms-assets.com/48401/1644864897-next-framework.jpeg?fit=max&fm=webp&w=900)
