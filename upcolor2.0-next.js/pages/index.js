@@ -8,6 +8,7 @@ import Modal from "../components/Modal";
 import { useRecoilState } from "recoil";
 import { modalState, modalTypeState } from "../atoms/modalAtom";
 import { AnimatePresence } from 'framer-motion';
+import { connectToDatabase } from "../util/mongobd";
 
 export default function Home({ posts, articles }) {
   const [modalOpen, setModalOpen] = useRecoilState(modalState);
@@ -37,7 +38,7 @@ export default function Home({ posts, articles }) {
           <Sidebar/>
           {/* {SideBar} */}
           {/* {Feed} */}
-          <Feed/>
+          <Feed posts={posts}/>
         </div>
           {/* {Widgets} */}
           <AnimatePresence>
@@ -60,9 +61,32 @@ export async function getServerSideProps(context) {
       },
     };
   }
+
+  // Get posts on SSR
+  const {db} = await connectToDatabase();
+  const posts = await db
+  .collection("posts")
+  .find()
+  .sort({timestamp: -1})
+  .toArray();
+
+// Get Google News API
+const results = await fetch(
+  `https://newsapi.org/v2/top-headlines?country=us&apiKey=${process.env.NEWS_API_KEY}`
+).then((res) => res.json());
+
   return {
-    props : {
+    props: {
       session,
+      posts: posts.map((post) => ({
+        _id: post._id.toString(),
+        input: post.input,
+        photoUrl: post.photoUrl,
+        username: post.username,
+        email: post.email,
+        userImg: post.userImg,
+        createdAt: post.createdAt,
+      })),
     },
   };
 
