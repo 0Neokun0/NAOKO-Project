@@ -1,4 +1,4 @@
-import { connectToDatabase } from "../../../util/mongobd";
+import { connectToDatabase } from "../../../util/mongodb";
 import { ObjectId } from "mongodb";
 
 export default async function handler(req, res) {
