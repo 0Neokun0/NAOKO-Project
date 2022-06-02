@@ -4,13 +4,19 @@ import { useRouter } from 'next/router';
 import Header from '../components/Header';
 import Sidebar from '../components/Sidebar';
 import Feed from '../components/Feed';
+import Modal from "../components/Modal";
+import { useRecoilState } from "recoil";
+import { modalState, modalTypeState } from "../atoms/modalAtom";
+import { AnimatePresence } from 'framer-motion';
 
-export default function Home() {
+export default function Home({ posts, articles }) {
+  const [modalOpen, setModalOpen] = useRecoilState(modalState);
+  const [modalType, setModalType] = useRecoilState(modalTypeState);
   const router = useRouter();
   const { status } = useSession({
     required: true,
     onUnauthenticated() {
-      // The user is not authenticated , handle it here.
+      // The user is not authenticated, handle it here.
       router.push("/home");
     },
   });
@@ -34,6 +40,11 @@ export default function Home() {
           <Feed/>
         </div>
           {/* {Widgets} */}
+          <AnimatePresence>
+          {modalOpen && (
+            <Modal handleClose={() => setModalOpen(false)} type={modalType} />
+          )}
+        </AnimatePresence>
       </main>
     </div>
   )
