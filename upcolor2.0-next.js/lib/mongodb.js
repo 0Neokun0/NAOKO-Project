@@ -1,4 +1,6 @@
 // This approach is taken from https://github.com/vercel/next.js/tree/canary/examples/with-mongodb
+
+// This file is for to connect Apdapter
 import { MongoClient } from "mongodb";
 
 const uri = process.env.MONGODB_URI;
