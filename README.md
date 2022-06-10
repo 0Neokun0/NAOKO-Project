@@ -1,5 +1,8 @@
 # GTM 進級制作
 
+https://docs.google.com/presentation/d/1fbNwXVBaFQqM58N9fVYyyS5ObtPoc_pZtxPt22e-kXE/edit#slide=id.p
+https://docs.google.com/spreadsheets/d/1yIi4x0oHs0q_o-0zZ4HFO4H7Xig5N5NbgKngLJ0mpMA/edit#gid=1530160484
+
 
 ### UPCOLOR ver2
     * バージョンアップ
