@@ -4,10 +4,11 @@
   "private": true,
   "dependencies": {
     "delay": "^4.2.0",
+    "node-sass": "^7.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-pose": "^4.0.8",
-    "react-scripts": "3.0.1",
+    "react-scripts": "^5.0.1",
     "react-spring": "^8.0.20"
   },
   "scripts": {
@@ -32,6 +33,6 @@
     ]
   },
   "devDependencies": {
-    "node-sass": "^7.0.1"
+    "sass": "^1.52.3"
   }
 }
