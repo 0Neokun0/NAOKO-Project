@@ -105,3 +105,5 @@ Open http://localhost:3000 to view it in your browser.
 
 # サーバー
     * lollipop
+    
+ 中間発表まで完成したいと思います。
