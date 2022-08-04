@@ -106,3 +106,5 @@ Open http://localhost:3000 to view it in your browser.
     
  中間発表まで完成したいと思います。
  夏休みに頑張ります。
+
+中間発表9月
